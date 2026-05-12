@@ -30,3 +30,15 @@
 - Problems: scaling-and-efficiency, representation-learning
 - Concepts: attention-mechanisms, generative-modeling, pretraining-and-transfer
 - All pages have frontmatter, source references, and cross-map wikilinks
+
+## [2026-05-12] curator | 8 more map pages created (second pass)
+- [lineage] deep-learning-foundations — ResNet (skip connections) + Scaling Laws: the architectural and empirical foundations of deep learning
+- [lineage] representation-learning — BERT (NLP) → CLIP (vision-language) → ViT (vision): cross-modal evolution of representation learning
+- [concept] residual-connections — detailed treatment of skip connections from ResNet through Transformer/ViT
+- [concept] self-supervised-learning — MLM, contrastive, and autoregressive SSL paradigms across BERT, CLIP, GPT-3, VAE, ViT
+- [concept] scaling-behavior — power-law mathematics, compute-optimal training, Chinchilla revision, and the emergence-capability gap
+- [concept] attention-attention-summary — synthesis of Lilian Weng's attention survey, cross-referenced against primary papers
+- [problem] compute-scaling — training/inference cost, hardware constraints, economics of the scaling frontier
+- [problem] model-evaluation — fair comparison across heterogeneous scales, architectures, and methodological approaches
+- Total maps: 16 (8 existing + 8 new)
+- Updated index.md (maps section) and log.md
