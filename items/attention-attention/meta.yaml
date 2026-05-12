@@ -1,0 +1,16 @@
+title: "Attention? Attention!"
+authors:
+  - Lilian Weng
+year: 2018
+type: blog
+source_url: https://lilianweng.github.io/posts/2018-06-24-attention/
+tags:
+  - attention
+  - transformer
+  - seq2seq
+  - neural-turing-machine
+  - self-attention
+  - deep-learning
+  - nlp
+score: 5
+ingested: 2026-05-12

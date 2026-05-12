@@ -1,0 +1,17 @@
+title: "GPT-4 Technical Report"
+authors:
+  - OpenAI
+year: 2023
+type: report
+source_url: https://arxiv.org/abs/2303.08774
+tags:
+  - gpt-4
+  - large-language-model
+  - multimodal
+  - rlhf
+  - scaling-laws
+  - alignment
+  - safety
+  - transformer
+score: 5
+ingested: 2026-05-12

@@ -1,0 +1,22 @@
+title: "Playing Atari with Deep Reinforcement Learning"
+authors:
+  - Volodymyr Mnih
+  - Koray Kavukcuoglu
+  - David Silver
+  - Alex Graves
+  - Ioannis Antonoglou
+  - Daan Wierstra
+  - Martin Riedmiller
+year: 2013
+type: paper
+source_url: https://arxiv.org/abs/1312.5602
+tags:
+  - reinforcement-learning
+  - deep-learning
+  - q-learning
+  - experience-replay
+  - atari
+  - convolutional-neural-network
+  - deep-q-network
+score: 5
+ingested: 2026-05-12

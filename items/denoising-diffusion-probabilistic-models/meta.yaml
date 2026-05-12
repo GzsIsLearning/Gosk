@@ -1,0 +1,18 @@
+title: "Denoising Diffusion Probabilistic Models"
+authors:
+  - Jonathan Ho
+  - Ajay Jain
+  - Pieter Abbeel
+year: 2020
+type: paper
+source_url: https://arxiv.org/abs/2006.11239
+tags:
+  - diffusion-models
+  - image-generation
+  - score-matching
+  - generative-models
+  - denoising
+  - variational-inference
+  - langevin-dynamics
+score: 5
+ingested: 2026-05-12

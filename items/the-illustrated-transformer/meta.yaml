@@ -1,0 +1,17 @@
+title: "The Illustrated Transformer"
+authors:
+  - Jay Alammar
+year: 2018
+type: blog
+source_url: https://jalammar.github.io/illustrated-transformer/
+tags:
+  - transformer
+  - attention
+  - self-attention
+  - multi-head-attention
+  - encoder-decoder
+  - positional-encoding
+  - deep-learning
+  - nlp
+score: 5
+ingested: 2026-05-12

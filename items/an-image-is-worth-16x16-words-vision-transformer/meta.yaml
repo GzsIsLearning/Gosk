@@ -1,0 +1,26 @@
+title: "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+authors:
+  - Alexey Dosovitskiy
+  - Lucas Beyer
+  - Alexander Kolesnikov
+  - Dirk Weissenborn
+  - Xiaohua Zhai
+  - Thomas Unterthiner
+  - Mostafa Dehghani
+  - Matthias Minderer
+  - Georg Heigold
+  - Sylvain Gelly
+  - Jakob Uszkoreit
+  - Neil Houlsby
+year: 2020
+type: paper
+source_url: https://arxiv.org/abs/2010.11929
+tags:
+  - vision-transformer
+  - vit
+  - transformer
+  - computer-vision
+  - image-classification
+  - self-attention
+score: 5
+ingested: 2026-05-12

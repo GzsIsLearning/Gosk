@@ -1,0 +1,16 @@
+title: "Auto-Encoding Variational Bayes"
+authors:
+  - Diederik P. Kingma
+  - Max Welling
+year: 2013
+type: paper
+source_url: https://arxiv.org/abs/1312.6114
+tags:
+  - vae
+  - variational-autoencoder
+  - generative-model
+  - variational-inference
+  - deep-learning
+  - unsupervised-learning
+score: 5
+ingested: 2026-05-12

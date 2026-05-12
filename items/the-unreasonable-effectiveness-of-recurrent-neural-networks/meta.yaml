@@ -1,0 +1,15 @@
+title: "The Unreasonable Effectiveness of Recurrent Neural Networks"
+authors:
+  - Andrej Karpathy
+year: 2015
+type: blog
+source_url: https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+tags:
+  - rnn
+  - lstm
+  - sequence-modeling
+  - character-level-language-model
+  - deep-learning
+  - nlp
+score: 5
+ingested: 2026-05-12

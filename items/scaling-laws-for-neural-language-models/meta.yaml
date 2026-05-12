@@ -1,0 +1,22 @@
+title: Scaling Laws for Neural Language Models
+authors:
+  - Jared Kaplan
+  - Sam McCandlish
+  - Tom Henighan
+  - Tom B. Brown
+  - Benjamin Chess
+  - Rewon Child
+  - Scott Gray
+  - Alec Radford
+  - Jeffrey Wu
+  - Dario Amodei
+year: 2020
+type: paper
+source_url: https://arxiv.org/abs/2001.08361
+tags:
+  - scaling-laws
+  - llm
+  - compute-optimal
+  - openai
+score: 5
+ingested: 2026-05-12

@@ -1,0 +1,23 @@
+title: "Attention Is All You Need"
+authors:
+  - Ashish Vaswani
+  - Noam Shazeer
+  - Niki Parmar
+  - Jakob Uszkoreit
+  - Llion Jones
+  - Aidan N. Gomez
+  - Lukasz Kaiser
+  - Illia Polosukhin
+year: 2017
+type: paper
+source_url: https://arxiv.org/abs/1706.03762
+tags:
+  - transformer
+  - attention
+  - neural-network
+  - nlp
+  - deep-learning
+  - sequence-transduction
+  - machine-translation
+score: 5
+ingested: 2026-05-12

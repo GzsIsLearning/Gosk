@@ -1,0 +1,27 @@
+title: LLaMA: Open and Efficient Foundation Language Models
+authors:
+  - Hugo Touvron
+  - Thibaut Lavril
+  - Gautier Izacard
+  - Xavier Martinet
+  - Marie-Anne Lachaux
+  - Timothee Lacroix
+  - Baptiste Roziere
+  - Naman Goyal
+  - Eric Hambro
+  - Faisal Azhar
+  - Aurelien Rodriguez
+  - Armand Joulin
+  - Edouard Grave
+  - Guillaume Lample
+year: 2023
+type: report
+source_url: https://arxiv.org/abs/2302.13971
+tags:
+  - llm
+  - open-source
+  - llama
+  - meta
+  - scaling
+score: 5
+ingested: 2026-05-12

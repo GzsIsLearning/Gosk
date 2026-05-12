@@ -1,0 +1,19 @@
+title: "Deep Residual Learning for Image Recognition"
+authors:
+  - Kaiming He
+  - Xiangyu Zhang
+  - Shaoqing Ren
+  - Jian Sun
+year: 2015
+type: paper
+source_url: https://arxiv.org/abs/1512.03385
+tags:
+  - resnet
+  - residual-learning
+  - computer-vision
+  - image-classification
+  - deep-learning
+  - cnn
+  - imagenet
+score: 5
+ingested: 2026-05-12
