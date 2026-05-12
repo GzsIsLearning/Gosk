@@ -1,0 +1,31 @@
+name: gosk post-merge
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  on-merge:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: log merge event
+        run: |
+          echo "PR merged: #${{ github.event.pull_request.number }}"
+          echo "Title: ${{ github.event.pull_request.title }}"
+          echo "Author: ${{ github.event.pull_request.user.login }}"
+          echo "Merged by: ${{ github.event.pull_request.merged_by.login }}"
+          echo "Items: $(ls items/ 2>/dev/null | wc -l)"
+          echo "Maps: $(find maps/ -name '*.md' | wc -l)"
+
+      - name: cleanup test artifacts
+        run: |
+          if [ -f PR_TEST.md ]; then
+            git rm PR_TEST.md
+            git config user.email "bot@gosk.dev"
+            git config user.name "gosk-bot"
+            git commit -m "cleanup: remove test artifact after PR merge"
+            git push
+          fi
