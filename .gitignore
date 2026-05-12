@@ -1,0 +1,7 @@
+# GOSK — agent configuration
+__pycache__/
+*.pyc
+.env
+
+# Knowledge items can be large. Use git-lfs or external storage.
+items/*/body.md
