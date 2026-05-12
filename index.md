@@ -1,35 +1,39 @@
 # GOSK Knowledge Index
 
-> Content catalog. Last updated: 2026-05-12 | 17 items
+> Content catalog. Last updated: 2026-05-12 | 17 items · 8 maps
 
-## Scouts's First Haul — 2026-05-12
-
-17 foundational works across AI/ML: 11 papers, 3 blogs, 1 article, 2 tech reports.
-Sources: arXiv, personal blogs, classic essays.
+## Items (17)
 
 ### Papers (11)
 
 | Title | Authors | Year | Slug |
 |-------|---------|------|------|
-| An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Alexey Dosovitskiy +11 | 2020 | `an-image-is-worth-16x16-words-vision-transformer` |
-| Attention Is All You Need | Ashish Vaswani +7 | 2017 | `attention-is-all-you-need` |
-| Auto-Encoding Variational Bayes | Diederik P. Kingma +1 | 2013 | `auto-encoding-variational-bayes` |
-| BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | Jacob Devlin +3 | 2018 | `bert-pretraining-of-deep-bidirectional-transformers` |
-| CLIP: Learning Transferable Visual Models From Natural Language Supervision | Alec Radford +11 | 2021 | `clip-transferable-visual-models` |
-| Deep Residual Learning for Image Recognition | Kaiming He +3 | 2015 | `deep-residual-learning-for-image-recognition` |
-| Denoising Diffusion Probabilistic Models | Jonathan Ho +2 | 2020 | `denoising-diffusion-probabilistic-models` |
-| Playing Atari with Deep Reinforcement Learning | Volodymyr Mnih +6 | 2013 | `dqn-atari-deep-reinforcement-learning` |
-| Generative Adversarial Nets | Ian J. Goodfellow +7 | 2014 | `generative-adversarial-nets` |
-| Language Models are Few-Shot Learners | Tom B. Brown +30 | 2020 | `language-models-are-few-shot-learners` |
-| Scaling Laws for Neural Language Models | Jared Kaplan +9 | 2020 | `scaling-laws-for-neural-language-models` |
+| Attention Is All You Need | Vaswani et al. | 2017 | `attention-is-all-you-need` |
+| Deep Residual Learning for Image Recognition | He et al. | 2016 | `deep-residual-learning-for-image-recognition` |
+| BERT: Pre-training of Deep Bidirectional Transformers | Devlin et al. | 2019 | `bert-pretraining-of-deep-bidirectional-transformers` |
+| An Image is Worth 16x16 Words (ViT) | Dosovitskiy et al. | 2021 | `an-image-is-worth-16x16-words-vision-transformer` |
+| Generative Adversarial Nets | Goodfellow et al. | 2014 | `generative-adversarial-nets` |
+| Auto-Encoding Variational Bayes | Kingma & Welling | 2014 | `auto-encoding-variational-bayes` |
+| CLIP: Learning Transferable Visual Models | Radford et al. | 2021 | `clip-transferable-visual-models` |
+| Playing Atari with Deep RL (DQN) | Mnih et al. | 2013 | `dqn-atari-deep-reinforcement-learning` |
+| Denoising Diffusion Probabilistic Models | Ho et al. | 2020 | `denoising-diffusion-probabilistic-models` |
+| Language Models are Few-Shot Learners (GPT-3) | Brown et al. | 2020 | `language-models-are-few-shot-learners` |
+| Scaling Laws for Neural Language Models | Kaplan et al. | 2020 | `scaling-laws-for-neural-language-models` |
 
 ### Blog Posts (3)
 
 | Title | Authors | Year | Slug |
 |-------|---------|------|------|
+| The Unreasonable Effectiveness of RNNs | Karpathy | 2015 | `the-unreasonable-effectiveness-of-recurrent-neural-networks` |
 | Attention? Attention! | Lilian Weng | 2018 | `attention-attention` |
 | The Illustrated Transformer | Jay Alammar | 2018 | `the-illustrated-transformer` |
-| The Unreasonable Effectiveness of Recurrent Neural Networks | Andrej Karpathy | 2015 | `the-unreasonable-effectiveness-of-recurrent-neural-networks` |
+
+### Tech Reports (2)
+
+| Title | Authors | Year | Slug |
+|-------|---------|------|------|
+| GPT-4 Technical Report | OpenAI | 2023 | `gpt-4-technical-report` |
+| LLaMA: Open and Efficient Foundation LMs | Touvron et al. | 2023 | `llama-open-and-efficient-foundation-language-models` |
 
 ### Articles (1)
 
@@ -37,25 +41,23 @@ Sources: arXiv, personal blogs, classic essays.
 |-------|---------|------|------|
 | The Bitter Lesson | Rich Sutton | 2019 | `the-bitter-lesson` |
 
-### Tech Reports (2)
-
-| Title | Authors | Year | Slug |
-|-------|---------|------|------|
-| GPT-4 Technical Report | OpenAI | 2023 | `gpt-4-technical-report` |
-| LLaMA: Open and Efficient Foundation Language Models | Hugo Touvron +13 | 2023 | `llama-open-and-efficient-foundation-language-models` |
-
 ---
 
-## Maps
+## Maps (8)
 
-### Lineage
-(empty — curator will populate after first review pass)
+### Lineage (方法演化)
 
-### Problems
-(empty)
+- [[maps/lineage/transformer-evolution]] — 从 Attention 到 GPT-4 的 Transformer 演进
+- [[maps/lineage/generative-models-evolution]] — VAE → GAN → DDPM 的生成模型谱系
+- [[maps/lineage/learning-paradigms]] — ResNet、DQN、RNN、Bitter Lesson — 学习范式的突破
 
-### Experience
-(empty)
+### Problems (未解决问题)
 
-### Concepts
-(empty)
+- [[maps/problems/scaling-and-efficiency]] — 尺度定律下的计算、数据与效率
+- [[maps/problems/representation-learning]] — 无监督表征学习的核心挑战
+
+### Concepts (核心概念)
+
+- [[maps/concepts/attention-mechanisms]] — 注意力机制的多种形态
+- [[maps/concepts/generative-modeling]] — 生成建模的核心思想
+- [[maps/concepts/pretraining-and-transfer]] — 预训练与迁移学习
